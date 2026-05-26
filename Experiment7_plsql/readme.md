@@ -36,7 +36,7 @@ END;
 
 **Expected Output:**  
 Greater number is: 80
-### Program:
+## Program:
 ```
 DECLARE
     num1 NUMBER := 80;  -- First number
@@ -49,11 +49,8 @@ BEGIN
     END IF;
 END;
 ```
-### Output:
-![image](https://github.com/user-attachments/assets/e385ae52-3dfc-447c-a92e-fea220d36db6)
-
-
----
+## Output:
+<img width="1446" height="108" alt="image" src="https://github.com/user-attachments/assets/7bcff9b0-30e1-4508-881b-50a7c6cbf37f" />
 
 ## 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
 
@@ -65,7 +62,7 @@ END;
 
 **Expected Output:**  
 Sum of first 10 natural numbers is: 55
-### Program
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -82,12 +79,9 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Sum of first ' || n || ' natural numbers is: ' || total_sum);
 END;
 ```
-### Output
-![Screenshot 2025-05-18 142927](https://github.com/user-attachments/assets/a3916bf1-c13b-42dd-91b2-f5fed15b3264)
+## Output:
+![image](https://github.com/user-attachments/assets/f7bc37f8-0155-4ee2-ba78-2873aed05fa3)
 
-
-
----
 
 ## 3. Write a PL/SQL program to generate Fibonacci series
 
@@ -100,7 +94,7 @@ END;
 **Expected Output:**  
 n = 7  
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
-### Program
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -124,11 +118,8 @@ BEGIN
     END LOOP;
 END;
 ```
-### Output:
-![Screenshot 2025-05-18 143058](https://github.com/user-attachments/assets/8b6da385-916c-456f-b3dd-57c507c6caca)
-
-
----
+## Output:
+![image](https://github.com/user-attachments/assets/27d45d8b-1201-45a8-b6c8-eabb7e9c0594)
 
 ## 4. Write a PL/SQL Program to display the number in Reverse Order
 
@@ -140,7 +131,7 @@ END;
 **Expected Output:**  
 n = 1535  
 Reversed number is 5351
-### Program
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -160,11 +151,8 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Reversed number is ' || reversed);
 END;
 ```
-### Output
-![Screenshot 2025-05-18 143443](https://github.com/user-attachments/assets/fe7b9aca-097f-4c12-8d7e-909be38a5d28)
-
-
----
+## Output:
+![image](https://github.com/user-attachments/assets/3196f759-ca57-493d-888a-d3d2f4904635)
 
 ## 5. Write a PL/SQL program to find the largest of three numbers
 
@@ -176,7 +164,7 @@ END;
 **Expected Output:**  
 a = 10, b = 9, c = 15  
 Largest of three number is 15
-### Program
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -198,9 +186,8 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Largest of three number is ' || largest);
 END;
 ```
-### Output
-![Screenshot 2025-05-18 143953](https://github.com/user-attachments/assets/04933b2e-c2e3-4a8b-ac75-3d7296a7f3f0)
-
-
+## Output:
+![image](https://github.com/user-attachments/assets/101333eb-64a2-4a7c-9a20-3708e49e2d7a)
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
